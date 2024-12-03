@@ -1,19 +1,5 @@
 Virtual Tour of Nile University
-Project Description:
-The Nile University Virtual Tour project aims to create an immersive, interactive 3D tour of Nile University’s campus using Three.js. This project will provide a digital representation of the university, allowing users to explore the campus virtually. The 3D model will be created using SketchUp Pro, then exported to the GLTF format for compatibility with Three.js. Key features include dynamic lighting, realistic camera controls, and the ability to interact with the environment in a user-friendly and engaging way. The goal is to offer prospective students, parents, and visitors a realistic and accessible experience of the campus without the need for physical travel.
-
-Purpose:
-The purpose of the Nile University Virtual Tour project is to bridge the gap for prospective students, parents, faculty, and international visitors who are unable to visit the campus physically. By offering a detailed and realistic 3D tour of the campus, this project aims to enhance the decision-making process for prospective students and provide a comprehensive virtual experience. It also seeks to showcase Nile University’s facilities and campus environment in a visually captivating and interactive format, making it accessible to a global audience.
-
-Objective:
-The objective of this project is to develop a fully interactive 3D virtual tour of Nile University that accurately represents the campus environment. This will involve:
-- Creating the 3D model of the university using SketchUp Pro.
-- Exporting the model to GLTF format to ensure compatibility with Three.js.
-- Loading and rendering the model in Three.js, integrating realistic lighting and shading.
-- Implementing dynamic camera controls to allow users to explore the campus from different perspectives.
-- Enhancing interactivity with smooth navigation, realistic light effects, and detailed rendering to provide users with an immersive experience of the university campus.
-
-File Descriptions
+File Descriptions:
 1. Project.html
 Purpose: This is the main HTML file that serves as the entry point for the virtual tour. It contains the structure of the web page and the necessary scripts to initialize and run the Three.js environment.
 Content:
