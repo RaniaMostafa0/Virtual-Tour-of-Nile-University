@@ -1,4 +1,4 @@
-# 🏫 Virtual Tour of Nile University
+# Virtual Tour of Nile University
 
 An interactive, browser-based 3D virtual tour of the Nile University campus, built with **Three.js** and a custom-modeled campus environment. Navigate the campus as a playable character, explore the buildings, courts, and outdoor spaces, and experience real-time shadows and reflections powered by ray casting.
 
