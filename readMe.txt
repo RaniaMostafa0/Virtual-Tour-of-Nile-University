@@ -1,4 +1,4 @@
-# 🎓 Virtual Tour of Nile University
+# Virtual Tour of Nile University
 
 An interactive, browser-based 3D virtual tour of the Nile University campus, built with **Three.js** and a custom-modeled campus environment. Navigate the campus as a playable character, explore the buildings, courts, and outdoor spaces, and experience real-time shadows and reflections powered by ray casting.
 
@@ -52,13 +52,10 @@ A controllable character walks freely across the reconstructed terrain, with mov
 ---
 
 ## 📁 Project Structure
-
-```
 Virtual-Tour-of-Nile-University/
 ├── Project.html          # Main entry point — scene setup, controls, and render loop
 ├── Soldier.glb           # Animated character model (Idle/Walk/Run)
 └── README.md
-```
 
 ### `Project.html`
 The main file that initializes and runs the entire experience:
@@ -68,7 +65,6 @@ The main file that initializes and runs the entire experience:
 - Implements the `CharacterControls` class, handling movement, rotation, animation blending, and ground-following via raycasting
 - Adds a reflective ground plane and gradient sky background
 - Handles window resize events for a responsive viewport
-
 
 ---
 
@@ -82,14 +78,14 @@ The main file that initializes and runs the entire experience:
 ### Installation
 
 1. **Clone the repository**
-   ```bash
+```bash
    git clone https://github.com/RaniaMostafa0/Virtual-Tour-of-Nile-University.git
-   ```
+```
 
 2. **Navigate to the project directory**
-   ```bash
+```bash
    cd Virtual-Tour-of-Nile-University
-   ```
+```
 
 3. **Serve the project locally**
 
@@ -100,9 +96,9 @@ The main file that initializes and runs the entire experience:
    - Right-click `Project.html` → **Open with Live Server**
 
    **Option B — Python's built-in server**
-   ```bash
+```bash
    python -m http.server 8000
-   ```
+```
    Then open `http://localhost:8000/Project.html` in your browser.
 
 ---
@@ -117,11 +113,3 @@ The main file that initializes and runs the entire experience:
 | Scroll wheel | Zoom in/out |
 
 ---
-
-Project created and developed as part of a Computer Graphics course project.
-
----
-
-## 📄 License
-
-This project is provided for educational and portfolio purposes. If you'd like to reuse or build on it, please reach out or open an issue first.
